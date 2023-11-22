@@ -6,7 +6,7 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="individual_project">
+    <BrowserRouter basename="task__creation__form">
       <App />
     </BrowserRouter>
   </React.StrictMode>

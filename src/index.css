@@ -1,30 +1,83 @@
 @import-normalize;
 /* bring in normalize.css styles */
 
-body {
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  margin: 10px;
+  padding: 0;
+  background-color: #6f6fc4;
+}
+
+.title {
+  font-size: 24px;
+  color: white;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(32, 32, 33);
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  max-width: 420px;
+  min-width: 300px;
 }
 
-ul,
-h1,
-h2,
-h3,
-p {
+.label {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0 0 10px 0;
+  gap: 10px;
+}
+
+.p {
+  min-width: 105px;
+  padding: 0;
   margin: 0;
 }
 
-img {
-  display: block;
-  max-width: 100%;
+.nobody {
+  padding: 0;
+  margin: 0;
+  opacity: 0.6;
+}
+
+.exec {
+  width: 300px;
+  min-width: 200px;
+}
+
+.text {
+  padding: 10px;
+  width: 280px;
+  min-width: 200px;
+  min-height: 40px;
+  border: solid 1px black;
+  border-radius: 5px;
+}
+
+.set {
+  height: 40px;
+  margin: 0;
+  padding: 5px;
+  border: solid 1px black;
+  border-radius: 5px;
+}
+
+.file {
+  padding: 10px;
+}
+
+.btn {
+  display: flex;
+  margin: 20px auto 0 auto;
+  padding: 10px;
+  color: white;
+  background-color: #6f6fc4;
+  border-radius: 5px;
+  border: none;
 }
